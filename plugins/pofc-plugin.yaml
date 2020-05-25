@@ -1,0 +1,20 @@
+kind: "EntandoPlugin"
+apiVersion: "entando.org/v1"
+metadata:
+  name: "pofc-plugin"
+spec:
+  image: entando/pof-c:0.0.1-SNAPSHOT
+  replicas: 1
+  dbms: mysql
+  parameters: {}
+  ingressPath: "/PofC"
+  healthCheckPath: "/management/health"
+  securityLevel: "strict"
+  connectionConfigNames: []
+  permissions: []
+  roles:
+  - name: PofC-admin
+    code: PofC-admin
+  - name: meeting-admin
+    code: "meeting-admin"
+# entando-needle-descriptor-add-roles - Entando blueprint will add roles here

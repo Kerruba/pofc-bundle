@@ -1,0 +1,18 @@
+code: pofc-bundle 
+description: This is the PofC bundle
+
+components:
+  plugins:
+    - plugins/pofc-plugin.yaml
+
+  widgets:
+    - ui/widgets/meeting/tableWidget/meeting-table-widget-descriptor.yaml
+    - ui/widgets/meeting/detailsWidget/meeting-details-widget-descriptor.yaml
+    - ui/widgets/meeting/formWidget/meeting-form-widget-descriptor.yaml
+# entando-needle-descriptor-add-widgets - Entando blueprint will add widget bundle files here
+
+  pageModels:
+
+  contentTypes:
+
+  contentModels:
