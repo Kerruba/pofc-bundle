@@ -9,7 +9,6 @@ components:
     - ui/widgets/meeting/tableWidget/meeting-table-widget-descriptor.yaml
     - ui/widgets/meeting/detailsWidget/meeting-details-widget-descriptor.yaml
     - ui/widgets/meeting/formWidget/meeting-form-widget-descriptor.yaml
-# entando-needle-descriptor-add-widgets - Entando blueprint will add widget bundle files here
 
   pageModels:
 
